@@ -5,7 +5,6 @@ public class Exercicio06 {
 
         double[] devido = new double[12];
 
-        // indice 0 eh o mes 1, por isso o +1
         for (int i = 0; i < devido.length; i++) {
             int mes = i + 1;
             devido[i] = valor + valor * taxa / 100 * mes;
