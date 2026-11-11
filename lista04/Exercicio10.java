@@ -24,7 +24,6 @@ public class Exercicio10 {
             System.out.printf("Item %d: %d x R$ %.2f = R$ %.2f%n", i + 1, qtd[i], preco[i], subtotal);
         }
 
-        // so tem desconto se passar de 200
         double desconto = 0;
         if (total > 200.00) {
             desconto = total * 0.05;
