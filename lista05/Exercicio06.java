@@ -1,7 +1,7 @@
 public class Exercicio06 {
 
     public static int contarVogais(String texto) {
-        // passa pra minuscula pra nao ter que testar A e a
+      
         String t = texto.toLowerCase();
         int qtd = 0;
         for (int i = 0; i < t.length(); i++) {
@@ -14,7 +14,7 @@ public class Exercicio06 {
     }
 
     public static void exibirContagem(String[] frases) {
-        int maior = 0; // indice da frase com mais vogais
+        int maior = 0;
 
         for (int i = 0; i < frases.length; i++) {
             int qtd = contarVogais(frases[i]);
