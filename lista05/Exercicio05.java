@@ -2,11 +2,11 @@ public class Exercicio05 {
 
     public static String paraBinario(int n) {
         if (n == 0) {
-            return "0"; // senao o while nem roda
+            return "0";
         }
         String bin = "";
         while (n > 0) {
-            bin = (n % 2) + bin; // o resto vai pra esquerda
+            bin = (n % 2) + bin;
             n = n / 2;
         }
         return bin;
