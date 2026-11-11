@@ -1,6 +1,5 @@
 public class Exercicio01 {
 
-    // repete o simbolo "tamanho" vezes
     public static String gerarLinha(char simbolo, int tamanho) {
         String linha = "";
         int cont = 0;
