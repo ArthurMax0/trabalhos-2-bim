@@ -21,7 +21,6 @@ public class Exercicio07 {
 
         double media = soma / salarios.length;
 
-        // tem que rodar de novo porque so da pra comparar depois de ter a media
         int acima = 0;
         for (int i = 0; i < salarios.length; i++) {
             if (salarios[i] > media) {
