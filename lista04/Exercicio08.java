@@ -10,7 +10,6 @@ public class Exercicio08 {
         int recuperacao = 0;
         int reprovados = 0;
 
-        // testa o >= 6 primeiro, senao quem tirou 8 cai na recuperacao
         for (int i = 0; i < notas.length; i++) {
             if (notas[i] >= 6) {
                 aprovados++;
