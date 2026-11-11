@@ -1,7 +1,5 @@
 public class Exercicio04 {
 
-    // bolha: compara vizinho com vizinho e troca se tiver fora de ordem
-    // a cada volta o maior vai pro final, entao o for de dentro vai encurtando
     public static void ordenar(int[] v) {
         for (int volta = 0; volta < v.length - 1; volta++) {
             for (int j = 0; j < v.length - 1 - volta; j++) {
