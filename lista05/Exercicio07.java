@@ -1,7 +1,7 @@
 public class Exercicio07 {
 
     public static String gerarIniciais(String nomeCompleto) {
-        // " +" pra nao bugar se tiver dois espacos seguidos
+
         String[] partes = nomeCompleto.trim().split(" +");
         String iniciais = "";
         for (String p : partes) {
