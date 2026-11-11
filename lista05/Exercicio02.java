@@ -15,7 +15,6 @@ public class Exercicio02 {
         return "Obesidade";
     }
 
-    // pesos[i] e alturas[i] sao da mesma pessoa
     public static void exibirRelatorio(double[] pesos, double[] alturas) {
         for (int i = 0; i < pesos.length; i++) {
             double imc = calcularImc(pesos[i], alturas[i]);
