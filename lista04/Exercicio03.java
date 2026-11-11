@@ -4,7 +4,7 @@ public class Exercicio03 {
         double soma = 0;
 
         for (int i = 0; i < notas.length; i++) {
-            // o replace deixa digitar 7,5 ou 7.5
+
             notas[i] = Double.parseDouble(IO.readln("Digita a nota " + (i + 1) + ": ").replace(',', '.'));
             soma = soma + notas[i];
         }
