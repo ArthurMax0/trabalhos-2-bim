@@ -4,7 +4,7 @@ public class Exercicio03 {
         if (numero < 2) {
             return false;
         }
-        // so precisa testar ate a raiz do numero
+
         for (int d = 2; d * d <= numero; d++) {
             if (numero % d == 0) {
                 return false;
