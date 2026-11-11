@@ -5,7 +5,7 @@ public class Exercicio05 {
 
         for (int i = 0; i < originais.length; i++) {
             originais[i] = Double.parseDouble(IO.readln("Preço do produto " + (i + 1) + ": ").replace(',', '.'));
-            comDesconto[i] = originais[i] * 0.90; // 10% de desconto
+            comDesconto[i] = originais[i] * 0.90;
         }
 
         System.out.println();
