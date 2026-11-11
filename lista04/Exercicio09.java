@@ -5,7 +5,6 @@ public class Exercicio09 {
 
         int codigo = Integer.parseInt(IO.readln("Código do produto: ").trim());
 
-        // -1 = nao achou
         int pos = -1;
         for (int i = 0; i < codigos.length; i++) {
             if (codigos[i] == codigo) {
