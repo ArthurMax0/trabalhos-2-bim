@@ -1,6 +1,6 @@
 public class Exercicio04 {
     public static void main(String[] args) {
-        // 2 linhas e 3 colunas
+
         int[][] m = new int[2][3];
         int pares = 0;
 
