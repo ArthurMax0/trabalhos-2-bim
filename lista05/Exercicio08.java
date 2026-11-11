@@ -1,6 +1,5 @@
 public class Exercicio08 {
 
-    // se empatar fica a primeira
     public static String maiorPalavra(String[] palavras) {
         String maior = palavras[0];
         for (int i = 1; i < palavras.length; i++) {
