@@ -8,7 +8,6 @@ public class Exercicio05 {
             }
         }
 
-        // diagonal principal: linha == coluna
         System.out.print("Diagonal principal:");
         for (int i = 0; i < 3; i++) {
             System.out.print(" " + m[i][i]);
