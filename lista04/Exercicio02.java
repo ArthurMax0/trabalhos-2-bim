@@ -6,7 +6,7 @@ public class Exercicio02 {
         precos[2] = 30.00;
 
         for (int i = 0; i < precos.length; i++) {
-            // troca o ponto por virgula pra sair 12,90
+
             String valor = String.format("%.2f", precos[i]).replace('.', ',');
             System.out.println("Produto " + (i + 1) + ": R$ " + valor);
         }
